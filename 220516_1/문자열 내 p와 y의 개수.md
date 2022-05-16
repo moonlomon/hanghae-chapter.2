@@ -1,5 +1,5 @@
-# 부족한 금액 계산하기
-https://programmers.co.kr/learn/courses/30/lessons/82612
+# 문자열 내 p와 y의 개수
+https://programmers.co.kr/learn/courses/30/lessons/12916
 
 문제 설명
 > 대문자와 소문자가 섞여있는 문자열 s가 주어집니다. \ 
