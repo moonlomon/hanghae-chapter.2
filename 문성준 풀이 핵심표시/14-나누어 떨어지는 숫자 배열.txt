@@ -1,0 +1,14 @@
+function solution(arr, divisor) {
+    let answer = [];
+    for (let i=0;i<arr.length;i++) {
+        if (arr[i]%divisor == 0) {
+            answer.push(arr[i]);  // push : 배열에 원소를 추가
+        }
+        if (answer.length < 1) {
+            answer.push(-1);
+        } else {
+            answer.sort((a,b)=>a-b) //sort((a,b)=>a-b) : 배열을 오름차순으로 재배열
+        }
+    }
+      return answer
+  }

@@ -1,0 +1,8 @@
+function solution(N) {
+    answer = 0;
+    let arr = N.toString().split("")  // toStirng() : 숫자열을 문자열로 변환 , split("") : ""를 기준으로 문자열을 나눠 문자배열로 변환
+    for (let i = 0; i < arr.length; i++) {
+      answer += parseInt(arr[i]);    // parseInt() : ()안에 문자열을 숫자열로 변환
+    }
+    return answer;
+  }

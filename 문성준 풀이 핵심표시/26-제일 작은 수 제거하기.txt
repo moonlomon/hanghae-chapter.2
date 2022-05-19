@@ -1,0 +1,11 @@
+function solution(arr) {
+    let answer = []
+    arr.sort((a, b) => b - a).pop(); // sort((a,b)=>b-a) : 배열을 내림차순으로 재배열
+    if (arr.length == 0) {           // .pop : 배열 내 마지막 원소를 제거   주의) answer=arr.pop의 경우 제외된 값이 answer로 넘어감
+        arr.push(-1);
+        answer = arr
+    } else {
+        answer = arr
+    }
+    return answer
+}

@@ -1,0 +1,6 @@
+function solution(N) {
+    let answer = 0;
+    a = N.toString(3).split("").reverse().join(""); //toString(3) : 숫자열을 3진법의 문자열로 변환
+    answer = parseInt(a, 3);                        //reverse() : 문자배열을 거꾸로 재배열
+    return answer;                                  //join() : 배열 내 원소를 모두 합쳐 하나의 문자열로 변환
+  }                                                 //parseInt(a,3) : 3진수 문자열 a를 10진수 숫자열로 변환

@@ -1,0 +1,3 @@
+function solution(seoul) {
+    return "김서방은 "+ seoul.indexOf("Kim")+ "에 있다"  // indexOf : 문자배열 내 원소의 순서를 숫자열로 표시
+}
